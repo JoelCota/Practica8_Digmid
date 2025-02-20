@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/round_box"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/navy_blue"/>
+
+    <TextView
+        android:id="@+id/taskDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:textColor="@color/navy_blue"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="7:00"
+        android:inputType="time"
+        android:textSize="14sp"
+        android:textColor="@color/navy_blue"/>
+
+</LinearLayout>
